@@ -36,10 +36,45 @@
     </header>
     <form class="form">
       <div class="form__row">
-        <label for="name" class="form__name">Name</label>
+        <label for="name" class="form__label">Name</label>
         <input id="name" type="text">
       </div>
-      <!-- Add all the other inputs with the labels -->
+      <div class="form__row">
+        <label for="username" class="form__label">Username</label>
+        <input id="username" type="text">
+      </div>
+      <div class="form__row">
+        <label for="website" class="form__label">Website</label>
+        <input id="website" type="text">
+      </div>
+      <div class="form__row">
+        <label for="bio" class="form__label">Bio</label>
+        <textarea id="bio"></textarea>
+      </div>
+      <div class="form__row">
+        <label for="email" class="form__label">Email</label>
+        <input id="email" type="text">
+      </div>
+      <div class="form__row">
+        <label for="phone-number" class="form__label">Phone Number</label>
+        <input id="phone-number" type="text">
+      </div>
+      <div class="form__row">
+        <label for="gender" class="form__label">Gender</label>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="cant" selected>Can't remember</option>
+        </select>
+      </div>
+      <div class="form__row">
+        <span for="name" class="form__label">Similar Account Suggestions</span>
+        <input id="similar" type="checkbox">
+        <label for="similar" class="form__outside-label">Include your account when recommending similar accounts people might want to follow.</label>
+      </div>
+      <div class="form__row">
+        <input type="submit"  />
+      </div>
     </form>
   </main>
   <footer>
