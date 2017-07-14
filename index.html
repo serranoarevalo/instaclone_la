@@ -7,11 +7,21 @@
   <body>
     <main id="login">
       <div class="login__column">
-        <img src="images/phoneImage.png" class="login__phoneImage"/>
+        <img src="images/phoneImage.png" class="login__phoneImage"/ />
       </div>
       <div class="login__column">
         <div class="login__box">
           <img src="images/logo.png" />
+          <form class="login__form">
+            <input type="text" placeholder="Username" />
+            <div class="login__form-box">
+              <input type="password" placeholder="Password" />
+              <a href="#">Forgot?</a>
+            </div>
+            <input type="submit" value="Log in" />
+          </form>
+          <span class="login__divider">or</span>
+          <a href="#" class="login__fb-link">Log in with Facebook</a>
         </div>
         <div class="login__box">
             <span class="login__text">Don't have an account?</span>
