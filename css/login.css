@@ -1,0 +1,32 @@
+#login {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 75%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login__column {
+  width: 45%;
+}
+
+.login__box {
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.login__box--transparent {
+  border: none;
+  background-color: transparent;
+}
+
+.login__appstores {
+  margin-top: 20px;
+}
+
+.login__appstore {
+  height: 40px;
+}
