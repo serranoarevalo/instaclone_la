@@ -32,7 +32,9 @@
   </nav>
   <main class="edit-profile">
     <header class="edit-profile__header">
-      <img src="images/avatar.jpg"  />
+      <div class="edit-profile__avatar-container">
+        <img src="images/avatar.jpg"  />
+      </div>
       <h3 class="edit-profile__title">serranoarevalo</h3>
     </header>
     <form class="form">
@@ -46,7 +48,7 @@
       </div>
       <div class="form__row">
         <label for="website" class="form__label">Website</label>
-        <input id="website" type="text">
+        <input id="website" type="text" value="http://serranoarevalo.com/">
       </div>
       <div class="form__row">
         <label for="bio" class="form__label">Bio</label>
@@ -74,6 +76,7 @@
         <label for="similar" class="form__outside-label">Include your account when recommending similar accounts people might want to follow.</label>
       </div>
       <div class="form__row">
+        <span class="form__label"></span>
         <input type="submit"  />
       </div>
     </form>
