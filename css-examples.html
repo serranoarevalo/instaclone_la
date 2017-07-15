@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  html, body{
+    height: 100%;
+  }
+  body{
+    background-color: blue;
+    margin:0;
+  }
+  .father{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+  }
+  .child{
+    background-color: yellow;
+    width:27.8%;
+    height: 200px;
+    color:blue;
+  }
+  .grandchild{
+    width:100px;
+    height:100px;
+  }
+  </style>
+</head>
+<body>
+  <div class="father">
+    <div class="child">
+      <div class="grandchild"></div>
+    </div>
+    <div class="child">1</div>
+    <div class="child">2</div>
+  </div>
+</body>
+</html>
