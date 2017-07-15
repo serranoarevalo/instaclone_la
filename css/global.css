@@ -5,6 +5,10 @@ body {
   color: #262626;
 }
 
+a {
+  text-decoration: none;
+}
+
 main {
   max-width: 1000px;
 }
