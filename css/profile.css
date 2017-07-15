@@ -91,7 +91,7 @@
   position: relative;
   overflow: hidden;
   height: auto;
-  width: 33%;
+  width: 32%;
 }
 
 .profile__photo::after {
@@ -132,4 +132,12 @@
 
 .profile__photo-stat:first-child {
   margin-right: 25px;
+}
+
+.profile__photo-row {
+  margin-bottom: 15px;
+}
+
+..profile__photo-row:last-child {
+  margin-bottom: 0;
 }
