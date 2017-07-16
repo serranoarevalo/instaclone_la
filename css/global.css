@@ -11,4 +11,16 @@ a {
 
 main {
   max-width: 1000px;
+  animation: .5s potato linear;
+}
+
+@keyframes potato {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }

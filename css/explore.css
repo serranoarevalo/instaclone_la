@@ -53,6 +53,7 @@
   font-size: 14px;
   border-radius: 5px;
   cursor: pointer;
+  transition: all .3s ease;
 }
 
 .explore__user button:active,
@@ -62,4 +63,5 @@
 
 .explore__user button:active {
   opacity: 0.8;
+  transform: scale(0.95, 0.95);
 }
