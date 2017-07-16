@@ -95,3 +95,20 @@
 .photo__add-comment textarea:focus {
   outline: none;
 }
+
+.heart-click {
+  color: red;
+  animation: 1s bump infinite linear;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.8, 0.8);
+  }
+}
