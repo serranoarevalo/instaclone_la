@@ -44,7 +44,9 @@
 
 $(document).ready(function() {
   var $heart = $(".heart"),
-    $comment = $(".comment");
+    $comment = $(".comment"),
+    $overlay = $(".profileOverlay"),
+    $cog = $(".fa-cog");
   $heart.click(function() {
     $(this).toggleClass("fa-heart-o");
     $(this).toggleClass("fa-heart heart-click");
@@ -52,5 +54,8 @@ $(document).ready(function() {
   $comment.click(function() {
     $(this).toggleClass("fa-comment-o");
     $(this).toggleClass("fa-comment comment-click");
+  });
+  $cog.click(function() {
+    $overlay.fadeIn(500);
   });
 });
