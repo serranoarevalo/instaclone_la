@@ -16,17 +16,17 @@
 .navigation__link {
   color: #262626;
   margin-right: 10px;
-  animation: .5s menuLink linear;
   display: inline-block;
 }
 
 #compass {
+  animation: .3s menuLink linear;
 }
 #heart {
-  animation-delay: 1.5s;
+  animation: .5s menuLink linear;
 }
 #user {
-  animation-delay: 3s;
+  animation: .7s menuLink linear;
 }
 
 @keyframes menuLink {
