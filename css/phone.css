@@ -29,6 +29,33 @@
   .photo__add-comment {
     display: none;
   }
+  .explore {
+    width: 100%;
+    margin-top: 0;
+    background: transparent;
+    border: 0;
+  }
+  .explore__user {
+    border-bottom: 0;
+  }
+  #login .login__column:first-child {
+    display: none;
+  }
+  #login .login__column:last-child {
+    width: 100%;
+  }
+  #login .login__box {
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+  }
+  #login .login__box:first-child {
+    padding: 0;
+  }
+  .login__form input[type="text"],
+  .login__form input[type="password"] {
+    background-color: transparent;
+  }
 }
 
 /*@media only screen and (min-width: 320px) and (max-width: 650px) {
