@@ -46,7 +46,9 @@ $(document).ready(function() {
   var $heart = $(".heart"),
     $comment = $(".comment"),
     $overlay = $(".profileOverlay"),
-    $cog = $(".fa-cog");
+    $cog = $(".fa-cog"),
+    $closeIcon = $(".profileOverlay i"),
+    $cancelBtn = $("#cancel");
   $heart.click(function() {
     $(this).toggleClass("fa-heart-o");
     $(this).toggleClass("fa-heart heart-click");
@@ -58,4 +60,11 @@ $(document).ready(function() {
   $cog.click(function() {
     $overlay.fadeIn(500);
   });
+
+  $closeIcon.click(closeOverlay);
+  $cancelBtn.click(closeOverlay);
+
+  function closeOverlay() {
+    $overlay.fadeOut(500);
+  }
 });
