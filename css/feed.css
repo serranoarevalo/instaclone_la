@@ -112,3 +112,18 @@
     transform: scale(0.8, 0.8);
   }
 }
+.comment-click {
+  color: black;
+  animation: 1s mix infinite linear;
+}
+
+@keyframes mix {
+  from {
+    opacity: 0;
+    transform: scale(0.8, 0.8) rotate(0deg);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1, 1) rotate(360deg);
+  }
+}

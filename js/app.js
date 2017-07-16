@@ -43,9 +43,14 @@
 // false || false = false
 
 $(document).ready(function() {
-  var $heart = $(".heart");
+  var $heart = $(".heart"),
+    $comment = $(".comment");
   $heart.click(function() {
     $(this).toggleClass("fa-heart-o");
     $(this).toggleClass("fa-heart heart-click");
+  });
+  $comment.click(function() {
+    $(this).toggleClass("fa-comment-o");
+    $(this).toggleClass("fa-comment comment-click");
   });
 });
