@@ -17,16 +17,17 @@
   color: #262626;
   margin-right: 10px;
   display: inline-block;
+  animation: .3s menuLink linear forwards;
+  opacity: 0;
 }
 
 #compass {
-  animation: .3s menuLink linear;
 }
 #heart {
-  animation: .5s menuLink linear;
+  animation-delay: .3s;
 }
 #user {
-  animation: .7s menuLink linear;
+  animation-delay: .5s;
 }
 
 @keyframes menuLink {
