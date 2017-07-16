@@ -16,6 +16,28 @@
 .navigation__link {
   color: #262626;
   margin-right: 10px;
+  animation: .5s menuLink linear;
+  display: inline-block;
+}
+
+#compass {
+}
+#heart {
+  animation-delay: 1.5s;
+}
+#user {
+  animation-delay: 3s;
+}
+
+@keyframes menuLink {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .navigation__input {
