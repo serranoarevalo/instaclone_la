@@ -29,7 +29,8 @@
   .photo__add-comment {
     display: none;
   }
-  .explore {
+  .explore,
+  .edit-profile {
     width: 100%;
     margin-top: 0;
     background: transparent;
@@ -55,6 +56,27 @@
   .login__form input[type="text"],
   .login__form input[type="password"] {
     background-color: transparent;
+  }
+  .profile__header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile__user-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile__name {
+    order: 1;
+    margin-top: 30px;
+  }
+  .profile__bio {
+    order: 2;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .profile__counts {
+    order: 3;
+    margin: 0;
   }
 }
 
